@@ -1,0 +1,63 @@
+.animate{
+    position: fixed;
+    opacity: 1;
+  
+    z-index:10;
+    width: 100%;
+    height: 100%;
+		background: #000000;
+     
+    animation: animate 6s Ease-in-Out forwards ;
+}
+@keyframes animate{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.im{
+  animation: im 3s Ease-in-Out forwards ;
+}
+
+
+
+@keyframes im{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+.navigation{
+    margin-top: -10%;
+    animation: navigation 2s Ease-in-Out forwards ;
+}
+
+@keyframes navigation{
+    from{
+        margin-top:-10%    }
+    to{
+        margin-top: 0%;
+    }
+}
+.malviya{
+    margin-top: -10%;
+    animation: malviya 2s Ease-in-Out forwards ;
+}
+
+
+@keyframes malviya{
+    from{
+        margin-bottom:-10%    }
+    to{
+        margin-bottom: 0%;
+    }
+}
+
+
+
+
